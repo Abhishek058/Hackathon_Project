@@ -287,3 +287,29 @@ color {
   justify-content: center;
   align-items: center;
 }
+.service-c i.fa, .service-c i.fas{
+  color: red;
+  font-size: 2rem;
+  margin-bottom: 4rem;
+}
+.service-c h2{
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+.service-c p{
+  margin-top: 3rem;
+  font-weight: 100;;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.service-c:nth-child(2){
+  background-color: rgb(30,30,30);
+}
+.service-c:nth-child(3){
+  background-color: rgb(40,40,40);
+}
+.main-nav .logo{
+  flex: 0.05;
+  box-sizing: border-box;
+  padding-left: 3rem;
+}
