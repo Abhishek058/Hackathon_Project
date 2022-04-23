@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin-top: 100px;
+  background-image: url("http://paul-themes.com/wordpress/gilber/wp-content/uploads/2020/12/contact.jpg");
+  color: rgb(222, 222, 222);
+}
+
+#contact {
+  display: flex;
+}
+
+@media (max-width: 850px) {
+  #contact1 {
+    margin-left: -80px;
+  }
+}
+
+@media(max-width: 700px) {
+  #contact {
+    display: block;
+  }
+  #contact1 {
+    margin-left: 50px;
+  }
+  #contact2 {
+    margin-top: 150px;
+    position: absolute;
+    left: 150px;
+  }
+}
+
+#contact1 {
+  padding-left: 100px;
+  width: 49%;
+}
+
+#contact_h1_1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+}
+#contact_h1_2 {
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin-top: 60px;
+}
+#contact_h1_3 {
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.contact_h4_1 {
+  margin-top: 60px;
+  color: rgb(150, 150, 150);
+}
+.email_1 {
+  width: 140px;
+}
+.email_1:hover {
+  color: #cf000f;
+}
+#contact2 {
+  position: absolute;
+  right: 0;
+  width: 50%;
+}
+
+#contact_h2_1 {
+  font-weight: 100px;
+  font-size: 30px;
+  justify-content: left;
+}
+
+#input_name {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-top: 50px;
+  width: 85%;
+  padding: 20px;
+  font-size: 17px;
+  color: white;
+  outline: none;
+}
+#msg_box {
+  width: 85%;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  margin-top: 60px;
+  width: 85%;
+  padding: 20px;
+  font-size: 17px;
+  overflow: hidden;
+  outline: none;
+  color: white;
+  resize: none;
+}
+#contact_submit_btn {
+  width: 150px;
+  background-color: #cf000f;
+  border: none;
+  padding: 13px;
+  margin-top: 50px;
+  color: #ffff;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+#contact_submit_btn:hover {
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+}
