@@ -109,16 +109,28 @@ body {
   margin-top: 60px;
   color: rgb(150, 150, 150);
 }
-.email_1 {
-  width: 140px;
+
+.card .photo{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  overflow: hidden;
 }
-.email_1:hover {
-  color: #cf000f;
+.photo img{
+  width: 100%;
+  object-fit: contain;
 }
-#contact2 {
-  position: absolute;
-  right: 0;
-  width: 50%;
+.name h1{
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.skillset{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #contact_h2_1 {
