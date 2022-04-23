@@ -1,64 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto Condensed';
-    scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed";
+  scroll-behavior: smooth;
 }
 
-body{
-  background-color: rgb(35,35,35);
+body {
+  background-color: rgb(35, 35, 35);
   overflow-y: scroll;
   width: 100vw;
   overflow-x: hidden;
 }
 
-.title::before{
+.title::before {
   content: "<";
 }
-.title::after{
+.title::after {
   content: "/>";
   color: red;
 }
-.items h1::before{
-  content: "<"
+.items h1::before {
+  content: "<";
 }
-.items h1::after{
+.items h1::after {
   content: "/>";
   color: red;
 }
 
-.section{
+.section {
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
 }
 
-
-.inner-links{
+.inner-links {
   display: flex;
   width: 100%;
   font-size: 2rem;
   justify-content: flex-end;
   padding-bottom: 1rem;
-  border-bottom: 2px solid rgba(255,255,255,0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
 }
-.inner-links a .loader{
+.inner-links a .loader {
   margin-right: 1rem;
 }
-.inner-links a{
+.inner-links a {
   display: flex;
   flex-direction: row;
   margin: 0 1rem;
-  border-top: 2px solid rgba(255,255,255,0.2);
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
   padding-top: 1rem;
   transition: color 200ms ease-out;
 }
 
-.inner-links a:hover{
+.inner-links a:hover {
   color: red;
 }
-.section .items{
+.section .items {
   /* scroll-snap-align: start; */
   display: flex;
   height: 100vh;
@@ -70,11 +69,41 @@ body{
   color: white;
   background: radial-gradient(circle at center, #444, #222);
 }
-#contact_h1_3 {
-  font-size: 32px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  margin-top: 20px;
+.align-center {
+  align-items: center;
+}
+.align-end {
+  justify-content: end;
+}
+.center {
+  justify-content: center !important;
+}
+.items > h1 {
+  font-size: 15rem;
+  width: 100%;
+}
+.team{
+  width: 90%;
+  display: flex;
+  height: max-content;
+  flex-direction: row;
+  justify-content: space-between;
+}.card{
+  width: 32%;
+  height: 75vh;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: 3rem 4rem;
+  transition: border 150ms ease-in, transform 150ms ease-in-out;
+}
+.card:hover{
+  border: 1px solid rgba(255,255,255,0.6);
+  transform: scale(1.01);
 }
 .contact_h4_1 {
   margin-top: 60px;
