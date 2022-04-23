@@ -82,17 +82,18 @@ body {
   font-size: 15rem;
   width: 100%;
 }
-.team{
+.team {
   width: 90%;
   display: flex;
   height: max-content;
   flex-direction: row;
   justify-content: space-between;
-}.card{
+}
+.card {
   width: 32%;
   height: 75vh;
   border-radius: 10px;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,8 +102,8 @@ body {
   padding: 3rem 4rem;
   transition: border 150ms ease-in, transform 150ms ease-in-out;
 }
-.card:hover{
-  border: 1px solid rgba(255,255,255,0.6);
+.card:hover {
+  border: 1px solid rgba(255, 255, 255, 0.6);
   transform: scale(1.01);
 }
 .contact_h4_1 {
@@ -110,53 +111,53 @@ body {
   color: rgb(150, 150, 150);
 }
 
-.card .photo{
+.card .photo {
   width: 15rem;
   height: 15rem;
   border-radius: 50%;
   overflow: hidden;
 }
-.photo img{
+.photo img {
   width: 100%;
   object-fit: contain;
 }
-.name h1{
+.name h1 {
   font-size: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
 }
-.skillset{
+.skillset {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
 }
-.skill{
-  border: 1px solid rgba(255,255,255,0.19);
-  background-color: rgba(255,255,255,0.1);
+.skill {
+  border: 1px solid rgba(255, 255, 255, 0.19);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 0.5rem 1rem;
   border-radius: 50px;
   margin: 0.5rem 0.5rem;
 }
-.head{
+.head {
   width: 100% !important;
   height: 97vh !important;
 }
-button{
-  background-color: rgba(0,0,0,0);
+button {
+  background-color: rgba(0, 0, 0, 0);
   outline: none;
   border: none;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
-color{
+color {
   color: red;
 }
 
-.nav-btn{
+.nav-btn {
   font-size: 2rem;
   color: white;
   position: absolute;
@@ -164,26 +165,25 @@ color{
   top: 2rem;
   display: none;
 }
-.navbar{
+.navbar {
   width: 100vw;
   height: 100vh;
   position: absolute;
   top: 0;
-  right:-100%;
+  right: -100%;
   z-index: -1000;
   display: none;
   opacity: 0;
   transition: all 150ms ease-out;
-
 }
-.outlook{
+.outlook {
   width: inherit;
   height: inherit;
   position: absolute;
   z-index: -1001;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
-.body{
+.body {
   width: 30rem;
   height: 100vh;
   background-color: rgb(44, 44, 44);
@@ -198,7 +198,7 @@ color{
   box-sizing: border-box;
 }
 
-.header{
+.header {
   color: white;
   font-size: 3rem;
   text-align: end;
@@ -208,37 +208,62 @@ color{
   align-items: center;
   justify-content: end;
 }
-.header .loader{
+.header .loader {
   margin-right: 1.5rem;
   margin-bottom: 1rem;
 }
-.body .links{
-  color: rgb(200,200,200);
+.body .links {
+  color: rgb(200, 200, 200);
   display: flex;
   flex-direction: column;
   margin-top: 4rem;
 }
-.body .links a{
+.body .links a {
   margin-top: 2.5rem;
   font-size: 1.7rem;
   text-align: end;
-  border-bottom: 0.1px solid rgba(255,255,255,0.2);
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.2);
 }
-.body-visible{
+.body-visible {
   right: 0;
 }
-.show-nav{
+.show-nav {
   opacity: 1;
   z-index: 999999;
 }
-.x-btn{
+.x-btn {
   position: absolute;
   top: 3rem;
   right: 3rem;
   font-size: 2rem;
-  color: rgb(200,200,200);
+  color: rgb(200, 200, 200);
   transition: transform 0.7s ease-out;
 }
-.x-btn:hover{
+.x-btn:hover {
   transform: rotate(360deg);
+}
+.main-nav{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: 7vh;
+  z-index: 9999;
+  background-color: rgb(25,25,25);
+  display: flex;
+  align-items: center;
+  color: rgb(200,200,200);
+}
+.service{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.service h1{
+  border-top: 1px solid rgba(255,255,255,0.4);
+  font-size: 7rem;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 3rem;
 }
