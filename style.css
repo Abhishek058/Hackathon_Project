@@ -13,10 +13,13 @@ body{
   overflow-x: hidden;
 }
 
-#contact {
-  display: flex;
+.title::before{
+  content: "<";
 }
-
+.title::after{
+  content: "/>";
+  color: red;
+}
 @media (max-width: 850px) {
   #contact1 {
     margin-left: -80px;
