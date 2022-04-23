@@ -504,3 +504,143 @@ form button {
       transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
   }
 }
+.main-nav .title{
+  flex: 0.6;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.main-nav .links{
+  font-size: 1.4rem;
+  flex: 0.3;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 1024px) {
+  .service h1{
+      font-size: 4rem;
+  }
+  .skill-cards .card-s{
+      width: 100%;
+      margin: 0;
+      margin-top: 2rem;
+  }
+  .skill-cards .card-s h1{
+      font-size: 1rem;
+  }
+  .card-s ul li{
+      font-size: 1rem;
+  }
+  .skill-cards{
+      height: max-content;
+  }
+  .nav-btn{
+      display: block;
+  }.navbar{
+      display: block;
+      right: 0;
+  }
+  .main-nav{
+      display: none;
+  }
+  .inner-links{
+      font-size: 1rem;
+      flex-direction: column;
+      border-bottom: none;
+  }
+  .inner-links a{
+      align-items: center;
+      margin-top: 2rem;
+      border-top: none;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+  .footer{
+      margin-top: 3rem;
+      flex-direction: column;
+      padding: 1rem 2rem;
+      height: max-content;
+  }
+  .footer .sec1{
+      width: 100%;
+      box-sizing: border-box;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(255,255,255,0.19);
+  }
+  .footer .sec2{
+      width: 100%;
+      margin-top: 2rem;
+  }
+  .sec2 h1{
+      margin: 0;
+  }
+  form{
+      padding: 0 1rem;
+  }
+  .sec-con h1{
+      font-size: 2rem;
+  }
+  .sec-con h4{
+      font-size: 1rem;
+  }
+  .sec-con h2{
+      font-size: 1.5rem;
+  }
+  .service{
+      height: max-content;
+  }
+  .service-card{
+      flex-direction: column;
+      height: max-content;
+  }
+  .service-c{
+      margin-top: 2rem;
+      width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .body{
+      width: 100%;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .items > h1{
+      font-size: 7rem;
+  }
+  .head{
+      height: 100vh !important;
+  }
+  .team{
+      flex-direction: column;
+  }
+  .card{
+      width: 100%;
+      margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .items > h1{
+      font-size: 3rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  body{
+      overflow-x: hidden;
+  }
+  .header .title{
+      font-size: 2rem;
+  }
+  .body .links a{
+      font-size: 2rem;
+      margin-top: 3rem;
+  }
+  .card{
+      padding: 0;
+  }
+  .card .photo{
+      width: 10rem;
+      height: 10rem;
+  }
+  #team{
+      padding: 0;
+  }
+}
