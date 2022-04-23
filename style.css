@@ -242,32 +242,32 @@ color {
 .x-btn:hover {
   transform: rotate(360deg);
 }
-.main-nav{
+.main-nav {
   width: 100%;
   position: sticky;
   top: 0;
   height: 7vh;
   z-index: 9999;
-  background-color: rgb(25,25,25);
+  background-color: rgb(25, 25, 25);
   display: flex;
   align-items: center;
-  color: rgb(200,200,200);
+  color: rgb(200, 200, 200);
 }
-.service{
+.service {
   width: 100%;
   height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.service h1{
-  border-top: 1px solid rgba(255,255,255,0.4);
+.service h1 {
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
   font-size: 7rem;
   text-align: center;
   box-sizing: border-box;
   padding-top: 3rem;
 }
-.service-card{
+.service-card {
   width: 100%;
   height: 50vh;
   display: flex;
@@ -275,10 +275,14 @@ color {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.service-c{
+.service-c {
   width: 30%;
   height: inherit;
-  background: radial-gradient(circle at center, rgb(35,35,35), rgb(15,15,15));
+  background: radial-gradient(
+    circle at center,
+    rgb(35, 35, 35),
+    rgb(15, 15, 15)
+  );
   display: flex;
   box-sizing: border-box;
   padding: 2rem;
@@ -287,40 +291,41 @@ color {
   justify-content: center;
   align-items: center;
 }
-.service-c i.fa, .service-c i.fas{
+.service-c i.fa,
+.service-c i.fas {
   color: red;
   font-size: 2rem;
   margin-bottom: 4rem;
 }
-.service-c h2{
+.service-c h2 {
   font-weight: 700;
   font-size: 2.3rem;
 }
-.service-c p{
+.service-c p {
   margin-top: 3rem;
-  font-weight: 100;;
+  font-weight: 100;
   font-size: 1.5rem;
   text-align: center;
 }
-.service-c:nth-child(2){
-  background-color: rgb(30,30,30);
+.service-c:nth-child(2) {
+  background-color: rgb(30, 30, 30);
 }
-.service-c:nth-child(3){
-  background-color: rgb(40,40,40);
+.service-c:nth-child(3) {
+  background-color: rgb(40, 40, 40);
 }
-.main-nav .logo{
+.main-nav .logo {
   flex: 0.05;
   box-sizing: border-box;
   padding-left: 3rem;
 }
-.loader{
+.loader {
   width: 50px;
   height: 50px;
   perspective: 800px;
   border-radius: 50%;
 }
 
-.loader .inner{
+.loader .inner {
   position: absolute;
   box-sizing: border-box;
   width: 100%;
@@ -328,16 +333,17 @@ color {
   border-radius: 50%;
 }
 
-.footer{
+.footer {
   width: 100%;
   height: 55vh;
   display: flex;
   flex-direction: row;
-  background-color: rgb(25,25,25);
+  background-color: rgb(25, 25, 25);
   box-sizing: border-box;
   padding: 3rem 10rem;
 }
-.footer .sec1, .footer .sec2{
+.footer .sec1,
+.footer .sec2 {
   box-sizing: border-box;
   display: flex;
   width: 50%;
@@ -345,33 +351,34 @@ color {
   flex-direction: column;
 }
 
-.sec2 h1{
+.sec2 h1 {
   box-sizing: border-box;
   margin-left: 2rem;
 }
-.sec-con h1{
+.sec-con h1 {
   color: white;
   font-size: 3rem;
-  border-bottom: 1px solid rgba(255,255,255,0.19);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.19);
   position: relative;
 }
-.sec-con h2, .sec-con h4{
+.sec-con h2,
+.sec-con h4 {
   margin-top: 2rem;
   color: white;
   font-size: 2rem;
   font-weight: 300;
 }
-.sec-con h4{
+.sec-con h4 {
   margin-top: 0 !important;
   font-size: 1rem;
   font-weight: 100;
   letter-spacing: 2px;
 }
-.sec-con h1::after{
+.sec-con h1::after {
   content: "/>";
   color: red;
 }
-form{
+form {
   box-sizing: border-box;
   padding: 0 2rem;
   width: 100%;
@@ -380,20 +387,21 @@ form{
   flex-direction: column;
 }
 
-form .e-mail, form .number{
+form .e-mail,
+form .number {
   margin-top: 1.5rem;
   width: 100%;
   border: none;
   outline: none;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
-  background-color: rgba(0,0,0,0);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   font-size: 1rem;
   box-sizing: border-box;
   padding: 0.4rem 1rem;
   color: white;
 }
 
-form textarea{
+form textarea {
   margin-top: 2rem;
   font-size: 1rem;
   color: white;
@@ -401,13 +409,13 @@ form textarea{
   width: 100%;
   outline: none;
   border: none;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   height: 10vh;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   box-sizing: border-box;
-  padding: 0.4rem 1rem
+  padding: 0.4rem 1rem;
 }
-.skill-cards{
+.skill-cards {
   width: 90%;
   height: 90vh;
   display: flex;
@@ -416,7 +424,7 @@ form textarea{
   justify-content: center;
   margin-top: 5rem;
 }
-.skill-cards .card-s{
+.skill-cards .card-s {
   width: 100%;
   box-sizing: border-box;
   padding: 1rem 0rem;
@@ -424,25 +432,59 @@ form textarea{
   margin: 2rem;
   flex-direction: row;
   justify-content: space-evenly;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   align-items: center;
   border-radius: 50px;
   transition: transform 200ms ease-out, background-color 200ms ease-in;
 }
-.skill-cards .card-s:hover{
-  background-color: rgba(255,255,255,0.2);
+.skill-cards .card-s:hover {
+  background-color: rgba(255, 255, 255, 0.2);
   transform: scale(1.01);
 }
-.card-s h1{
+.card-s h1 {
   flex: 0.3;
 }
-.card-s ul{
+.card-s ul {
   flex: 0.5;
 }
-.card-s ul li{
+.card-s ul li {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
-.sec1 h1::before{
+.sec1 h1::before {
   content: "<";
 }
+form button {
+  align-self: flex-end;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: red;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.loader .inner.one {
+  left: 0;
+  top: 0;
+  border-bottom: 3px solid #fff;
+  animation: anim1 1s linear infinite;
+}
+
+.loader .inner.two {
+  right: 0;
+  top: 0;
+  border-right: 3px solid #fff;
+  animation: anim2 1s linear infinite;
+}
+
+.loader .inner.three {
+  right: 0;
+  bottom: 0;
+  border-top: 3px solid #fff;
+  animation: anim3 1s linear infinite;
+}
+.projects .proj-sec h1 {
+  font-size: 5rem;
+  color: red;
+}
+
