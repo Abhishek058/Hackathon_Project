@@ -55,11 +55,20 @@ body{
   transition: color 200ms ease-out;
 }
 
-#contact_h1_2 {
-  font-size: 32px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  margin-top: 60px;
+.inner-links a:hover{
+  color: red;
+}
+.section .items{
+  /* scroll-snap-align: start; */
+  display: flex;
+  height: 100vh;
+  height: max-content;
+  width: 100%;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 5rem 3rem;
+  color: white;
+  background: radial-gradient(circle at center, #444, #222);
 }
 #contact_h1_3 {
   font-size: 32px;
