@@ -488,159 +488,160 @@ form button {
   color: red;
 }
 
-@keyframes anim1{
-  0%{
-      transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+@keyframes anim1 {
+  0% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
   }
-  100%{
-      transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
-  }
-}
-@keyframes anim3{
-  0%{
-      transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
-  }
-  100%{
-      transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  100% {
+    transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
   }
 }
-.main-nav .title{
+@keyframes anim3 {
+  0% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
+.main-nav .title {
   flex: 0.6;
   font-size: 3rem;
   font-weight: 500;
 }
-.main-nav .links{
+.main-nav .links {
   font-size: 1.4rem;
   flex: 0.3;
   display: flex;
   justify-content: space-around;
 }
 @media screen and (max-width: 1024px) {
-  .service h1{
-      font-size: 4rem;
+  .service h1 {
+    font-size: 4rem;
   }
-  .skill-cards .card-s{
-      width: 100%;
-      margin: 0;
-      margin-top: 2rem;
+  .skill-cards .card-s {
+    width: 100%;
+    margin: 0;
+    margin-top: 2rem;
   }
-  .skill-cards .card-s h1{
-      font-size: 1rem;
+  .skill-cards .card-s h1 {
+    font-size: 1rem;
   }
-  .card-s ul li{
-      font-size: 1rem;
+  .card-s ul li {
+    font-size: 1rem;
   }
-  .skill-cards{
-      height: max-content;
+  .skill-cards {
+    height: max-content;
   }
-  .nav-btn{
-      display: block;
-  }.navbar{
-      display: block;
-      right: 0;
+  .nav-btn {
+    display: block;
   }
-  .main-nav{
-      display: none;
+  .navbar {
+    display: block;
+    right: 0;
   }
-  .inner-links{
-      font-size: 1rem;
-      flex-direction: column;
-      border-bottom: none;
+  .main-nav {
+    display: none;
   }
-  .inner-links a{
-      align-items: center;
-      margin-top: 2rem;
-      border-top: none;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid rgba(255,255,255,0.2);
+  .inner-links {
+    font-size: 1rem;
+    flex-direction: column;
+    border-bottom: none;
   }
-  .footer{
-      margin-top: 3rem;
-      flex-direction: column;
-      padding: 1rem 2rem;
-      height: max-content;
+  .inner-links a {
+    align-items: center;
+    margin-top: 2rem;
+    border-top: none;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
-  .footer .sec1{
-      width: 100%;
-      box-sizing: border-box;
-      padding-bottom: 2rem;
-      border-bottom: 1px solid rgba(255,255,255,0.19);
+  .footer {
+    margin-top: 3rem;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    height: max-content;
   }
-  .footer .sec2{
-      width: 100%;
-      margin-top: 2rem;
+  .footer .sec1 {
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.19);
   }
-  .sec2 h1{
-      margin: 0;
+  .footer .sec2 {
+    width: 100%;
+    margin-top: 2rem;
   }
-  form{
-      padding: 0 1rem;
+  .sec2 h1 {
+    margin: 0;
   }
-  .sec-con h1{
-      font-size: 2rem;
+  form {
+    padding: 0 1rem;
   }
-  .sec-con h4{
-      font-size: 1rem;
+  .sec-con h1 {
+    font-size: 2rem;
   }
-  .sec-con h2{
-      font-size: 1.5rem;
+  .sec-con h4 {
+    font-size: 1rem;
   }
-  .service{
-      height: max-content;
+  .sec-con h2 {
+    font-size: 1.5rem;
   }
-  .service-card{
-      flex-direction: column;
-      height: max-content;
+  .service {
+    height: max-content;
   }
-  .service-c{
-      margin-top: 2rem;
-      width: 100%;
+  .service-card {
+    flex-direction: column;
+    height: max-content;
+  }
+  .service-c {
+    margin-top: 2rem;
+    width: 100%;
   }
 }
 @media screen and (max-width: 768px) {
-  .body{
-      width: 100%;
+  .body {
+    width: 100%;
   }
 }
 @media screen and (max-width: 1160px) {
-  .items > h1{
-      font-size: 7rem;
+  .items > h1 {
+    font-size: 7rem;
   }
-  .head{
-      height: 100vh !important;
+  .head {
+    height: 100vh !important;
   }
-  .team{
-      flex-direction: column;
+  .team {
+    flex-direction: column;
   }
-  .card{
-      width: 100%;
-      margin-top: 2rem;
+  .card {
+    width: 100%;
+    margin-top: 2rem;
   }
 }
 @media screen and (max-width: 768px) {
-  .items > h1{
-      font-size: 3rem;
+  .items > h1 {
+    font-size: 3rem;
   }
 }
 @media screen and (max-width: 500px) {
-  body{
-      overflow-x: hidden;
+  body {
+    overflow-x: hidden;
   }
-  .header .title{
-      font-size: 2rem;
+  .header .title {
+    font-size: 2rem;
   }
-  .body .links a{
-      font-size: 2rem;
-      margin-top: 3rem;
+  .body .links a {
+    font-size: 2rem;
+    margin-top: 3rem;
   }
-  .card{
-      padding: 0;
+  .card {
+    padding: 0;
   }
-  .card .photo{
-      width: 10rem;
-      height: 10rem;
+  .card .photo {
+    width: 10rem;
+    height: 10rem;
   }
-  #team{
-      padding: 0;
+  #team {
+    padding: 0;
   }
 }
