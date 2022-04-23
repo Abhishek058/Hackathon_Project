@@ -429,3 +429,20 @@ form textarea{
   border-radius: 50px;
   transition: transform 200ms ease-out, background-color 200ms ease-in;
 }
+.skill-cards .card-s:hover{
+  background-color: rgba(255,255,255,0.2);
+  transform: scale(1.01);
+}
+.card-s h1{
+  flex: 0.3;
+}
+.card-s ul{
+  flex: 0.5;
+}
+.card-s ul li{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.sec1 h1::before{
+  content: "<";
+}
