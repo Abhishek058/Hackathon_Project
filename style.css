@@ -393,3 +393,39 @@ form .e-mail, form .number{
   color: white;
 }
 
+form textarea{
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: white;
+  resize: none;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: rgba(0,0,0,0);
+  height: 10vh;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  box-sizing: border-box;
+  padding: 0.4rem 1rem
+}
+.skill-cards{
+  width: 90%;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+}
+.skill-cards .card-s{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1rem 0rem;
+  display: flex;
+  margin: 2rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgba(0,0,0,0);
+  align-items: center;
+  border-radius: 50px;
+  transition: transform 200ms ease-out, background-color 200ms ease-in;
+}
