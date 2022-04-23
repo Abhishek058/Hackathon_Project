@@ -496,3 +496,11 @@ form button {
       transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
   }
 }
+@keyframes anim3{
+  0%{
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+  }
+  100%{
+      transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+  }
+}
