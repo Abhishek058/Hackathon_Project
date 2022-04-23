@@ -5,14 +5,12 @@
   font-family: "Roboto Condensed";
   scroll-behavior: smooth;
 }
-
 body {
   background-color: rgb(35, 35, 35);
   overflow-y: scroll;
   width: 100vw;
   overflow-x: hidden;
 }
-
 .title::before {
   content: "<";
 }
@@ -27,13 +25,13 @@ body {
   content: "/>";
   color: red;
 }
-
 .section {
   width: 100%;
+  /* height: 100vh; */
+  /* scroll-snap-type:y mandatory; */
   overflow-y: scroll;
   overflow-x: hidden;
 }
-
 .inner-links {
   display: flex;
   width: 100%;
@@ -53,7 +51,6 @@ body {
   padding-top: 1rem;
   transition: color 200ms ease-out;
 }
-
 .inner-links a:hover {
   color: red;
 }
@@ -106,11 +103,6 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.6);
   transform: scale(1.01);
 }
-.contact_h4_1 {
-  margin-top: 60px;
-  color: rgb(150, 150, 150);
-}
-
 .card .photo {
   width: 15rem;
   height: 15rem;
@@ -156,7 +148,6 @@ a {
 color {
   color: red;
 }
-
 .nav-btn {
   font-size: 2rem;
   color: white;
@@ -197,7 +188,6 @@ color {
   padding: 5rem;
   box-sizing: border-box;
 }
-
 .header {
   color: white;
   font-size: 3rem;
@@ -400,7 +390,6 @@ form .number {
   padding: 0.4rem 1rem;
   color: white;
 }
-
 form textarea {
   margin-top: 2rem;
   font-size: 1rem;
@@ -487,7 +476,6 @@ form button {
   font-size: 5rem;
   color: red;
 }
-
 @keyframes anim1 {
   0% {
     transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
@@ -496,6 +484,16 @@ form button {
     transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
   }
 }
+
+@keyframes anim2 {
+  0% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+  }
+}
+
 @keyframes anim3 {
   0% {
     transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
