@@ -132,11 +132,28 @@ body {
   flex-direction: row;
   justify-content: center;
 }
-
-#contact_h2_1 {
-  font-weight: 100px;
-  font-size: 30px;
-  justify-content: left;
+.skill{
+  border: 1px solid rgba(255,255,255,0.19);
+  background-color: rgba(255,255,255,0.1);
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  margin: 0.5rem 0.5rem;
+}
+.head{
+  width: 100% !important;
+  height: 97vh !important;
+}
+button{
+  background-color: rgba(0,0,0,0);
+  outline: none;
+  border: none;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+color{
+  color: red;
 }
 
 #input_name {
